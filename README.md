@@ -1,1 +1,1 @@
-# Advanced-Media-Seminar-final-
+# Advanced-Media-Seminar-final
