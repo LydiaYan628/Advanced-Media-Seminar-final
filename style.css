@@ -1,0 +1,129 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+}
+
+.welcomeT{
+  font-size: 36px;
+  width: 800px;
+  text-align: center;
+  transform: translate(-50%, 0);
+  position: absolute;
+  top:25%;
+  left:50%;
+}
+
+#welcomeDescr {
+  text-align: center;
+  transform: translate(-50%, 0);
+  position: absolute;
+  top:40%;
+  left:50%;
+}
+
+.btnDiv{
+  transform: translate(-50%, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 452px;
+}
+
+.introBtn {
+  border: none;
+  color: white;
+  padding: 16px 64px;
+  width: 320px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 2px solid #4CAF50;
+
+}
+
+.introBtn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.backBtn {
+  border: none;
+  color: white;
+  padding: 16px 64px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+
+}
+
+.backBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+#enterBtn {
+  color: black;
+  background-color: white;
+  border: 2px solid white;
+}
+#enterBtn:hover {
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+}
+
+.mapImg {
+  transform: translate(-50%, 0);
+  position: absolute;
+  width:60%;
+  top:100px;
+  left: 60%;
+}
+
+.checkFloor {
+  padding: 24px 24px;
+}
+
+.container {
+  font-size: 24px;
+}
+
+input {
+  width:20px;
+  height: 20px;
+}
+
+.Lydia{
+  transform: translate(-50%, 0);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 800px;
+}
+
+#lydiaName{
+  text-align: center;
+}
+
+#website {
+  color: white;
+}
+
+#website:hover {
+  color: #4CAF50;
+}

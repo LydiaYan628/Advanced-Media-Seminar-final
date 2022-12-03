@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Plant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <a href="index.html" class="backBtn">Back</a>
+    <p>This is the main plant page.</p>
+    <div class="checkFloor">
+      <label for="cb1" class="container">B1</label>
+      <input type="checkbox" name="pub" value="" id="cb1" onchange="showImg('b1');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf1" class="container">1F</label>
+      <input type="checkbox" name="pub" value="" id="cf1" onchange="showImg('f1');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf2" class="container">F2</label>
+      <input type="checkbox" name="pub" value="" id="cf2" onchange="showImg('f2');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf3" class="container">F3</label>
+      <input type="checkbox" name="pub" value="" id="cf3" onchange="showImg('f3');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf4" class="container">F4</label>
+      <input type="checkbox" name="pub" value="" id="cf4" onchange="showImg('f4');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf5" class="container">F5</label>
+      <input type="checkbox" name="pub" value="" id="cf5" onchange="showImg('f5');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf6" class="container">F6</label>
+      <input type="checkbox" name="pub" value="" id="cf6" onchange="showImg('f6');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf7" class="container">F7</label>
+      <input type="checkbox" name="pub" value="" id="cf7" onchange="showImg('f7');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf8" class="container">F8</label>
+      <input type="checkbox" name="pub" value="" id="cf8" onchange="showImg('f8');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <br/>
+      <label for="cf9" class="container">F9</label>
+      <input type="checkbox" name="off" value="" id="cf9" onchange="showImg('f9');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf10" class="container">F10</label>
+      <input type="checkbox" name="off" value="" id="cf10" onchange="showImg('f10');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf11" class="container">F11</label>
+      <input type="checkbox" name="off" value="" id="cf11" onchange="showImg('f11');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf12" class="container">F12</label>
+      <input type="checkbox" name="off" value="" id="cf12" onchange="showImg('f12');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf13" class="container">F13</label>
+      <input type="checkbox" name="off" value="" id="cf13" onchange="showImg('f13');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf14" class="container">F14</label>
+      <input type="checkbox" name="off" value="" id="cf14" onchange="showImg('f14');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="cf15" class="container">F15</label>
+      <input type="checkbox" name="pub" value="" id="cf15" onchange="showImg('f15');"/>
+      <span class="checkmark"></span>
+      <br/>
+      <br/>
+      <label for="pubAll" class="container">Public Space</label>
+      <input type="checkbox" name="" value="" id="pubAll" onchange="togglePub(this)"/>
+      <span class="checkmark"></span>
+      <br/>
+      <label for="offAll" class="container">Office Space</label>
+      <input type="checkbox" name="" value="" id="offAll" onchange="toggleOff(this)"/>
+      <span class="checkmark"></span>
+      <br/>
+
+    </div>
+    <img src="image/b1.png" alt="" class="mapImg public" id="b1" style="visibility:hidden" />
+    <img src="image/1.png" alt="" class="mapImg public" id="f1" style="visibility:hidden" />
+    <img src="image/2.png" alt="" class="mapImg public" id="f2" style="visibility:hidden" />
+    <img src="image/3.png" alt="" class="mapImg public" id="f3" style="visibility:hidden" />
+    <img src="image/4.png" alt="" class="mapImg public" id="f4" style="visibility:hidden" />
+    <img src="image/5.png" alt="" class="mapImg public" id="f5" style="visibility:hidden" />
+    <img src="image/6.png" alt="" class="mapImg public" id="f6" style="visibility:hidden" />
+    <img src="image/7.png" alt="" class="mapImg public" id="f7" style="visibility:hidden" />
+    <img src="image/8.png" alt="" class="mapImg public" id="f8" style="visibility:hidden" />
+    <img src="image/9.png" alt="" class="mapImg office" id="f9" style="visibility:hidden" />
+    <img src="image/10.png" alt="" class="mapImg office" id="f10" style="visibility:hidden" />
+    <img src="image/11.png" alt="" class="mapImg office" id="f11" style="visibility:hidden" />
+    <img src="image/12.png" alt="" class="mapImg office" id="f12" style="visibility:hidden" />
+    <img src="image/13.png" alt="" class="mapImg office" id="f13" style="visibility:hidden" />
+    <img src="image/14.png" alt="" class="mapImg office" id="f14" style="visibility:hidden" />
+    <img src="image/15.png" alt="" class="mapImg public" id="f15" style="visibility:hidden" />
+  </body>
+</html>
